@@ -81,13 +81,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC0E07EF2BD9AAAD000E6B0B /* assets */ = {
+		CC0E07EF2BD9AAAD000E6B0B /* extra */ = {
 			isa = PBXGroup;
 			children = (
 				CC0E07EA2BD99A5B000E6B0B /* Jersey10-Regular.ttf */,
 				CC6C8FDC2BD9728B009AC62B /* racoon.mp4 */,
 			);
-			path = assets;
+			path = extra;
 			sourceTree = "<group>";
 		};
 		CC90511F2BD94C88009B24D9 = {
@@ -111,7 +111,7 @@
 		CC90512A2BD94C88009B24D9 /* PedroPedroPe */ = {
 			isa = PBXGroup;
 			children = (
-				CC0E07EF2BD9AAAD000E6B0B /* assets */,
+				CC0E07EF2BD9AAAD000E6B0B /* extra */,
 				CC0E07EE2BD99B41000E6B0B /* Info.plist */,
 				CC90512B2BD94C88009B24D9 /* PedroPedroPeApp.swift */,
 				CC90512D2BD94C88009B24D9 /* ContentView.swift */,
