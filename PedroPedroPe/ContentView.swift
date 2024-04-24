@@ -6,16 +6,29 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color.black
+                .ignoresSafeArea()
+            VStack() {
+                
+                Image("racoon")
+                    .padding()
+                Text("Ingresa a la aplicación desde tu AppleWatch")
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.white)
+            }.padding(40)
+            
+            VStack {
+                Spacer()
+                Text("Desarrollado por @NativoDigital_iOS")
+                    .foregroundColor(.gray).opacity(0.7)
+                    .font(.caption2)
+            }
         }
-        .padding()
     }
 }
 
