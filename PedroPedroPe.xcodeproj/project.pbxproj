@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0E07EB2BD99A5B000E6B0B /* Jersey10-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC0E07EA2BD99A5B000E6B0B /* Jersey10-Regular.ttf */; };
+		CC0E07EC2BD99A5B000E6B0B /* Jersey10-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC0E07EA2BD99A5B000E6B0B /* Jersey10-Regular.ttf */; };
+		CC6C8FDD2BD97296009AC62B /* racoon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC6C8FDC2BD9728B009AC62B /* racoon.mp4 */; };
+		CC6C8FDE2BD97297009AC62B /* racoon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CC6C8FDC2BD9728B009AC62B /* racoon.mp4 */; };
+		CC90512C2BD94C88009B24D9 /* PedroPedroPeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90512B2BD94C88009B24D9 /* PedroPedroPeApp.swift */; };
+		CC90512E2BD94C88009B24D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90512D2BD94C88009B24D9 /* ContentView.swift */; };
+		CC9051302BD94C89009B24D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC90512F2BD94C89009B24D9 /* Assets.xcassets */; };
+		CC9051332BD94C89009B24D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9051322BD94C89009B24D9 /* Preview Assets.xcassets */; };
+		CC9051392BD94C89009B24D9 /* Pedro pe.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC9051382BD94C89009B24D9 /* Pedro pe.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC90513E2BD94C89009B24D9 /* PedroPedroPeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90513D2BD94C89009B24D9 /* PedroPedroPeApp.swift */; };
+		CC9051402BD94C89009B24D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC90513F2BD94C89009B24D9 /* ContentView.swift */; };
+		CC9051422BD94C8A009B24D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9051412BD94C8A009B24D9 /* Assets.xcassets */; };
+		CC9051452BD94C8A009B24D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9051442BD94C8A009B24D9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC90513A2BD94C89009B24D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC9051202BD94C88009B24D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9051372BD94C89009B24D9;
+			remoteInfo = "PedroPedroPe Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC90514B2BD94C8A009B24D9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC9051392BD94C89009B24D9 /* Pedro pe.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC0E07EA2BD99A5B000E6B0B /* Jersey10-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jersey10-Regular.ttf"; sourceTree = "<group>"; };
+		CC0E07ED2BD99A97000E6B0B /* PedroPedroPe-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PedroPedroPe-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CC0E07EE2BD99B41000E6B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC6C8FDC2BD9728B009AC62B /* racoon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = racoon.mp4; sourceTree = "<group>"; };
+		CC9051282BD94C88009B24D9 /* PedroPedroPe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PedroPedroPe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC90512B2BD94C88009B24D9 /* PedroPedroPeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedroPedroPeApp.swift; sourceTree = "<group>"; };
+		CC90512D2BD94C88009B24D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC90512F2BD94C89009B24D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9051322BD94C89009B24D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC9051382BD94C89009B24D9 /* Pedro pe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pedro pe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC90513D2BD94C89009B24D9 /* PedroPedroPeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedroPedroPeApp.swift; sourceTree = "<group>"; };
+		CC90513F2BD94C89009B24D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC9051412BD94C8A009B24D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC9051442BD94C8A009B24D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9051252BD94C88009B24D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9051352BD94C89009B24D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0E07EF2BD9AAAD000E6B0B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				CC0E07EA2BD99A5B000E6B0B /* Jersey10-Regular.ttf */,
+				CC6C8FDC2BD9728B009AC62B /* racoon.mp4 */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		CC90511F2BD94C88009B24D9 = {
+			isa = PBXGroup;
+			children = (
+				CC90512A2BD94C88009B24D9 /* PedroPedroPe */,
+				CC90513C2BD94C89009B24D9 /* PedroPedroPe Watch App */,
+				CC9051292BD94C88009B24D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9051292BD94C88009B24D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9051282BD94C88009B24D9 /* PedroPedroPe.app */,
+				CC9051382BD94C89009B24D9 /* Pedro pe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC90512A2BD94C88009B24D9 /* PedroPedroPe */ = {
+			isa = PBXGroup;
+			children = (
+				CC0E07EF2BD9AAAD000E6B0B /* assets */,
+				CC0E07EE2BD99B41000E6B0B /* Info.plist */,
+				CC90512B2BD94C88009B24D9 /* PedroPedroPeApp.swift */,
+				CC90512D2BD94C88009B24D9 /* ContentView.swift */,
+				CC90512F2BD94C89009B24D9 /* Assets.xcassets */,
+				CC9051312BD94C89009B24D9 /* Preview Content */,
+			);
+			path = PedroPedroPe;
+			sourceTree = "<group>";
+		};
+		CC9051312BD94C89009B24D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC9051322BD94C89009B24D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC90513C2BD94C89009B24D9 /* PedroPedroPe Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CC0E07ED2BD99A97000E6B0B /* PedroPedroPe-Watch-App-Info.plist */,
+				CC90513D2BD94C89009B24D9 /* PedroPedroPeApp.swift */,
+				CC90513F2BD94C89009B24D9 /* ContentView.swift */,
+				CC9051412BD94C8A009B24D9 /* Assets.xcassets */,
+				CC9051432BD94C8A009B24D9 /* Preview Content */,
+			);
+			path = "PedroPedroPe Watch App";
+			sourceTree = "<group>";
+		};
+		CC9051432BD94C8A009B24D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC9051442BD94C8A009B24D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9051272BD94C88009B24D9 /* PedroPedroPe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC90514C2BD94C8A009B24D9 /* Build configuration list for PBXNativeTarget "PedroPedroPe" */;
+			buildPhases = (
+				CC9051242BD94C88009B24D9 /* Sources */,
+				CC9051252BD94C88009B24D9 /* Frameworks */,
+				CC9051262BD94C88009B24D9 /* Resources */,
+				CC90514B2BD94C8A009B24D9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC90513B2BD94C89009B24D9 /* PBXTargetDependency */,
+			);
+			name = PedroPedroPe;
+			productName = PedroPedroPe;
+			productReference = CC9051282BD94C88009B24D9 /* PedroPedroPe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC9051372BD94C89009B24D9 /* PedroPedroPe Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9051482BD94C8A009B24D9 /* Build configuration list for PBXNativeTarget "PedroPedroPe Watch App" */;
+			buildPhases = (
+				CC9051342BD94C89009B24D9 /* Sources */,
+				CC9051352BD94C89009B24D9 /* Frameworks */,
+				CC9051362BD94C89009B24D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PedroPedroPe Watch App";
+			productName = "PedroPedroPe Watch App";
+			productReference = CC9051382BD94C89009B24D9 /* Pedro pe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9051202BD94C88009B24D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CC9051272BD94C88009B24D9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CC9051372BD94C89009B24D9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = CC9051232BD94C88009B24D9 /* Build configuration list for PBXProject "PedroPedroPe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC90511F2BD94C88009B24D9;
+			productRefGroup = CC9051292BD94C88009B24D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9051272BD94C88009B24D9 /* PedroPedroPe */,
+				CC9051372BD94C89009B24D9 /* PedroPedroPe Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9051262BD94C88009B24D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0E07EB2BD99A5B000E6B0B /* Jersey10-Regular.ttf in Resources */,
+				CC9051332BD94C89009B24D9 /* Preview Assets.xcassets in Resources */,
+				CC9051302BD94C89009B24D9 /* Assets.xcassets in Resources */,
+				CC6C8FDD2BD97296009AC62B /* racoon.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9051362BD94C89009B24D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9051452BD94C8A009B24D9 /* Preview Assets.xcassets in Resources */,
+				CC6C8FDE2BD97297009AC62B /* racoon.mp4 in Resources */,
+				CC0E07EC2BD99A5B000E6B0B /* Jersey10-Regular.ttf in Resources */,
+				CC9051422BD94C8A009B24D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9051242BD94C88009B24D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC90512E2BD94C88009B24D9 /* ContentView.swift in Sources */,
+				CC90512C2BD94C88009B24D9 /* PedroPedroPeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9051342BD94C89009B24D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9051402BD94C89009B24D9 /* ContentView.swift in Sources */,
+				CC90513E2BD94C89009B24D9 /* PedroPedroPeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC90513B2BD94C89009B24D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9051372BD94C89009B24D9 /* PedroPedroPe Watch App */;
+			targetProxy = CC90513A2BD94C89009B24D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC9051462BD94C8A009B24D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC9051472BD94C8A009B24D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC9051492BD94C8A009B24D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PedroPedroPe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PedroPedroPe-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.victorcastro.PedroPedroPe;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe.watchkitapp;
+				PRODUCT_NAME = "Pedro pe";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		CC90514A2BD94C8A009B24D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PedroPedroPe Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PedroPedroPe-Watch-App-Info.plist";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = io.victorcastro.PedroPedroPe;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe.watchkitapp;
+				PRODUCT_NAME = "Pedro pe";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		CC90514D2BD94C8A009B24D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PedroPedroPe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PedroPedroPe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pedro Pe";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC90514E2BD94C8A009B24D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PedroPedroPe/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PedroPedroPe/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pedro Pe";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9051232BD94C88009B24D9 /* Build configuration list for PBXProject "PedroPedroPe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9051462BD94C8A009B24D9 /* Debug */,
+				CC9051472BD94C8A009B24D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9051482BD94C8A009B24D9 /* Build configuration list for PBXNativeTarget "PedroPedroPe Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9051492BD94C8A009B24D9 /* Debug */,
+				CC90514A2BD94C8A009B24D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC90514C2BD94C8A009B24D9 /* Build configuration list for PBXNativeTarget "PedroPedroPe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC90514D2BD94C8A009B24D9 /* Debug */,
+				CC90514E2BD94C8A009B24D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9051202BD94C88009B24D9 /* Project object */;
+}
