@@ -412,7 +412,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "1.0-beta";
+				MARKETING_VERSION = 1.0.0.beta;
 				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe.watchkitapp;
 				PRODUCT_NAME = "Pedro pe";
 				SDKROOT = watchos;
@@ -442,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "1.0-beta";
+				MARKETING_VERSION = 1.0.0.beta;
 				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe.watchkitapp;
 				PRODUCT_NAME = "Pedro pe";
 				SDKROOT = watchos;
@@ -479,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "1.0-beta";
+				MARKETING_VERSION = 1.0.0.beta;
 				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -516,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = "1.0-beta";
+				MARKETING_VERSION = 1.0.0.beta;
 				PRODUCT_BUNDLE_IDENTIFIER = io.victorcastro.PedroPedroPe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
