@@ -58,8 +58,8 @@ struct ContentView: View {
                 VStack {
                     Spacer()
                     Text(currentTime)
-                        .font(.custom("Jersey10-Regular", size: 80))
-                        .shadow(radius: 10)
+                        .font(.custom("Jersey10-Regular", size: 85))
+                        .shadow(radius: 12)
                 }
                 
             }
